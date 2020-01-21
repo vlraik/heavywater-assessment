@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block head %}
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>
+            {% block title %}
+            {% endblock %}
+            Heavy Water Solutions
+        </title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <center>
+            <br><br><br>
+            <h1>Document Classification for Heavy Water Inc.</h1>
+
+            <form name = "IndexPage" method="post" action="{{ url_for('my_form_post') }}">
+                 Enter the input encrypted sentence for classification:<br>
+                    <input type="textarea" name="words" height="230px" width="200px" />
+                <button type="submit" onclick="">Submit</button>
+                <br><br><br><br>
+            </form>
+                <br><br><br><br><br><br><br><br>
+                <br><br><br><br><br><br><br><br>
+                <br><br><br><br><br><br><br><br>
+                <br><br><br><br><br><br><br><br><br>
+
+            <footer>
+                <h3>This website is created by Vrishabh Lakhani, val3917@rit.edu </h3>
+                <h4><a href="vlraik.github.io">Github Pages</a> </h4>
+            </footer>
+        </center>
+    </body>
+    {% endblock %}
+</html>  

@@ -3,7 +3,7 @@
 # How to run it
 ## To run on localhost, please start with the following command: python application.py. Please make sure that the environment has python 3.5+ and Flask 1.0.2. You can access the webservice locally at localhost:5000. Put the encrypted document/sentence into the input and submit to get the prediction and confidencevalue.
 
-## The webservice is hosted on  AWS elasticbeanstalk and the CI/CD task can be GitHub or GitLab. The reason for choosing AWS elasticbeanstalk is because if provides a lot of benefits in load balancing and scaling the webservice while with the help of other common tools code deployment become 2 clicks away after a proper setup. It can be found at: http://heavywater.j4wammphbu.us-east-2.elasticbeanstalk.com/ 
+## The webservice is hosted on  AWS elasticbeanstalk and the CI/CD task can be GitHub or GitLab. The reason for choosing AWS elasticbeanstalk is because if provides a lot of benefits in load balancing and scaling the webservice while with the help of other common tools code deployment become 2 clicks away after a proper setup. It can be found at: http://heavywater.j4wammphbu.us-east-2.elasticbeanstalk.com/ (Please note that the result will take about 30-45 seconds on ec2 because of memory constraints of t2.micro, but should happen instantaneously on the localhost)
 
 
 # Training
